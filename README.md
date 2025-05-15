@@ -24,7 +24,7 @@ The project consists of a FAQ section that displays multiple questions in an int
 ### Links
 
 - Solution URL: [GitHub](https://github.com/boompow/faq-accordion)
-- Live Site URL: [Vercel](https://faq-accordion-main-boompow.vercel.app/)
+- Live Site URL: [Vercel](https://faq-accordion-nine-iota.vercel.app/)
 
 ## Built With
 
