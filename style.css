@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --ff: "Work Sans", sans serif;
+
+    --fw-regular: 400;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    --clr-primary-100:hsl(275, 100%, 97%);
+    --clr-primary-600:hsl(292, 16%, 49%);
+    --clr-primary-750: #AD28EB;
+    --clr-primary-950:hsl(292, 42%, 14%);
+    --clr-neutral:hsl(0, 100%, 100%);
+}
+
+*{
+     margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: var(--ff);
+    font-size: 1rem;
+    line-height: 1.4;
+
+}
+
+body{
+    background-color: var(--clr-primary-100);
+    position: relative;
+}
+
+.bg_pattern{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    z-index: -10;
+    
+}
+
+.container{
+    z-index: 0;
+    max-width: 600px;
+    margin-inline: auto;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    margin-block: 2rem;
+    background-color: var(--clr-neutral);
+}
+
+.title{
+    display: flex;
+}
+
+h1{
+    margin-inline-start: 1rem;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block:1rem ;
+}
+
+.parent img{
+    cursor: pointer;
+}
+
+h3:hover{
+    color: var(--clr-primary-750);
+    cursor: pointer;
+}
+
+.child{
+    padding-block: 1rem;
+}
+
+.child p{
+    color: hsl(0, 0%, 32%);
+}
+
+footer{
+    margin: 1rem;
+
+}
+
+footer p{
+    text-align: center;
+    margin: 1rem;
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+     color: black;
+}
+
+footer a:hover{
+    color: var(--clr-primary-750);
+}
